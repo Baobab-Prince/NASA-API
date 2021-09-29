@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: orange;
+}
+
+@font-face {
+  font-family: intergalactic;
+
+  src: url(intergalactichalf.ttf) format('truetype');
+}
+
+h1 {
+  font-family: intergalactic;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.particles-js {
+  height: 100vh;
+}
+
+#search {
+  background-image: url('nebula.jpeg');
+  font-size: x-large;
+  margin: 30px;
+  padding: 20px;
+  width: 1200px;
+  color: orange;
+  font-weight: bolder;
+  align-items: center;
+}
